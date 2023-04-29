@@ -1,12 +1,13 @@
 @import url('https://fonts.google.com/specimen/Montserrat?preview.text=WHITEWATER&preview.text_type=custom')
+@import url (https://fonts.google.com/specimen/Kalam?preview.text=Rafting&preview.text_type=custom&query=kalam)
 :root {
     --primary-color: #FFF7EB;
     --secondary-color: #AFD2E9;
     --accent1-color: #96A13A;
     --accent2-color: #3588C0;
 
-    --heading-font: '', serif;
-    --paragraph-font: '', serif;
+    --heading-font: 'Kalam', handwritting;
+    --paragraph-font: 'Rahdhani', sans sarif;
 
     --nav-background-color: #FFF7EB;
     --nav-link-color: #AFD2E9;
