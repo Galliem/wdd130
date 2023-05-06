@@ -16,18 +16,12 @@
 /*Rafting logo*/
 header {
     max-width: 200px;
-    position: left;
-}
-/*Index*/
-header nav {
-    position:left;
 }
 /*all*/
 body{
 font-family: kalam;
 max-width: 950px;
 padding: 20px;
-color:#;
 }
 img{
     width: 100%;
@@ -59,7 +53,6 @@ img{
     padding: 80px;
 }
 .hero article p{
-    position:left;
     background-color: #3588c0a3;
     height: 200px;
 }
