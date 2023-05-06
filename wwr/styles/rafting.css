@@ -19,7 +19,7 @@ header {
     position: left;
 }
 /*Index*/
-nav {
+header nav {
     position:left;
 }
 /*all*/
@@ -27,7 +27,7 @@ body{
 font-family: kalam;
 max-width: 950px;
 padding: 20px;
-color:#96A13A;
+color:#;
 }
 img{
     width: 100%;
@@ -41,20 +41,36 @@ img{
     width: 100%;
     height: auto;
 }
-h1 {
+/* "White Water Rafting" */
+.hero h1 {
     position: absolute;
-    top:490px;
+    top:350px;
     text-align:center;
     left:0;
     right: 0;
     color:#262640
 }
-article{
+.hero article{
     position: absolute;
+    top: 450px;
+    left: 0;
+    right: 0;
+    width: 92.5%;
+    padding: 28px;
 }
-p{
-    position: left;
+.hero article p{
+    position:left;
+    background-color: #3588c0a3;
+    height: 200px;
 }
-article img{
+.hero article img{
+    float: right;
+    height: auto;
+    width: 230px;
+    padding: 40px;
+}
+.sociallinks {
+    height: auto;
+    width: 50px;
     float: right;
 }
