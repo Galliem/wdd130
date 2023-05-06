@@ -52,11 +52,11 @@ img{
 }
 .hero article{
     position: absolute;
-    top: 450px;
+    top: 400px;
     left: 0;
     right: 0;
-    width: 92.5%;
-    padding: 28px;
+    width: 79%;
+    padding: 80px;
 }
 .hero article p{
     position:left;
@@ -67,10 +67,10 @@ img{
     float: right;
     height: auto;
     width: 230px;
-    padding: 40px;
+    padding: 38px;
 }
 .sociallinks {
     height: auto;
     width: 50px;
-    float: right;
+    float: left;
 }
