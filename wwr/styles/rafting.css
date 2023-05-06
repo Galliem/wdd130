@@ -43,7 +43,11 @@ img{
 }
 h1 {
     position: absolute;
+    top:490px;
     text-align:center;
+    left:0;
+    right: 0;
+    color:#262640
 }
 article{
     position: absolute;
