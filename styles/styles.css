@@ -48,8 +48,8 @@ main img {
 aside h2 {
     position: absolute;
     top: 50px;
-    left: 200px;
-    color:#fff;
+    left: 130px;
+    color:rgb(43, 81, 111);
 }
 .grid, header, footer {
     margin: 0 auto;
