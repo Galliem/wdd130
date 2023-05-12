@@ -13,16 +13,24 @@
     --nav-hover-link-color: #3588C0;
     --nav-hover-background-color: #96A13A;
 }
-/*Rafting logo*/
+/*Rafting logo & nav links*/
 header {
-    max-width: 200px;
+    max-width: 100%;
+    background-color: #3588c0a3;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows:auto;
+}
+header nav {
+    
 }
 /*all*/
 body{
 font-family: kalam;
-max-width: 950px;
+max-width: 100%;
 padding: 20px;
 }
+/*rafting logo*/
 img{
     width: 100%;
     height: auto;
@@ -30,6 +38,7 @@ img{
     margin: 0 0 15px 15px;
     border: 0
 }
+/*first main image*/
 .hero img {
     display: block;
     width: 100%;
@@ -52,18 +61,40 @@ img{
     width: 79%;
     padding: 80px;
 }
+/*Blue transparent box*/
 .hero article p{
     background-color: #3588c0a3;
     height: 200px;
+    width: 100%;
+    padding: 50px;
 }
+/*happy client*/
 .hero article img{
     float: right;
     height: auto;
     width: 230px;
     padding: 38px;
 }
+/*5 images*/
+main section {
+    max-width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    background-color: #3588C0;
+}
+main h2 {
+    background-color: #96A13A;
+}
 .sociallinks {
     height: auto;
     width: 50px;
     float: left;
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+}
+footer {
+    background-color: #3588C0;
+    display: grid;
+    grid-template-columns: 500px 500px 500px 500px;
 }
