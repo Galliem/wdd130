@@ -18,11 +18,16 @@ header {
     max-width: 100%;
     background-color: #3588c0a3;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-columns: 200px 200px;
     grid-template-rows:auto;
+    padding-top: 15px;
 }
 header nav {
-    
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    column-gap: 20px;
+    float: center;
+    padding: 85px;
 }
 /*all*/
 body{
@@ -70,10 +75,11 @@ img{
 }
 /*happy client*/
 .hero article img{
-    float: right;
     height: auto;
-    width: 230px;
-    padding: 38px;
+    width: 300px;
+    padding-top: 60px;
+    padding-right:0px;
+    padding-left:100px;
 }
 /*5 images*/
 main section {
@@ -81,6 +87,7 @@ main section {
     padding: 20px;
     display: grid;
     grid-template-columns: 150px 150px 150px 150px 150px;
+    column-gap: 90px;
     background-color: #3588C0;
 }
 main h2 {
