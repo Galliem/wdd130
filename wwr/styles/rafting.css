@@ -2,7 +2,7 @@
 :root{
     --primary-color: #FFF7EB;
     --secondary-color: #AFD2E9;
-    --accent1-color: #96A13A;
+    --accent1-color: #ddb278;
     --accent2-color: #3588C0;
 
     --heading-font: 'Rahdhani', sans sarif;
@@ -11,7 +11,7 @@
     --nav-background-color: #FFF7EB;
     --nav-link-color: #AFD2E9;
     --nav-hover-link-color: #3588C0;
-    --nav-hover-background-color: #96A13A;
+    --nav-hover-background-color: #ddb278;
 }
 /*Rafting logo & nav links*/
 header {
@@ -23,10 +23,16 @@ header {
     padding-top: 15px;
 }
 header nav {
+    font-size: 25px;
     display: grid;
     grid-template-columns: 50px 50px 50px 50px;
-    column-gap: 20px;
-    padding: 85px;
+    column-gap: 100px;
+    padding: 90px;
+    padding-left: 200px;
+}
+nav a {
+    text-decoration: none;
+    color: var(--nav-background-color);
 }
 /*all*/
 body{
@@ -42,6 +48,9 @@ img{
     margin: 0 0 15px 15px;
     border: 0
 }
+.hero {
+    position: relative;
+}
 /*first main image*/
 .hero img {
     display: block;
@@ -51,15 +60,16 @@ img{
 /* "White Water Rafting" */
 .hero h1 {
     position: absolute;
-    top:350px;
+    top:80px;
     text-align:center;
     left:0;
     right: 0;
-    color:#262640
+    font-size:60px;
+    color:#262640;
 }
 .hero article{
     position: absolute;
-    top: 400px;
+    top: 150px;
     left: 0;
     right: 0;
     width: 79%;
@@ -74,23 +84,44 @@ img{
 }
 /*happy client*/
 .hero article img{
+    float:right;
     height: auto;
     width: 300px;
-    padding-top: 60px;
-    padding-right:0px;
-    padding-left:100px;
+    padding: 60px;
+    right:0;
+    left:0;
+}
+.history {
+    background-color: #ddb278;
+    text-align: center;
+    left:0;
+    right:0;
+}
+.history h2 {
+    font-size: 50px;
 }
 /*5 images*/
-main section {
+.adventure {
     max-width: 100%;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px;
-    column-gap: 90px;
     background-color: #3588C0;
+    height:400px;
 }
-main h2 {
-    background-color: #96A13A;
+.adventure h2 {
+    font-size: 50px;
+    text-align: center;
+    width:1250px;
+    padding-bottom: 200px;
+    position:absolute;
+}
+.adventure img {
+    position:bottom;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    column-gap: 90px;
+    width: 150px;
+    margin-right:75px;
+    margin-left: 0;
+    margin-top: 150px;
 }
 .sociallinks {
     height: auto;
@@ -100,7 +131,6 @@ main h2 {
     grid-template-columns: 75px 75px 75px;
 }
 footer {
-    background-color: #3588C0;
     display: grid;
     grid-template-columns: 500px 500px 500px 500px;
 }
