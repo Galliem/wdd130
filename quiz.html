@@ -5,13 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
 </head>
 <body>
+    <header>
+        <h1>WDD 130 | Basic HTML & CSS - Quiz</h1>
+    </header>
     <main>
-        <h1>What does the acronym CSS stand for?</h1>
-        <h2>What is the difference between grid and flex?</h2>
-        <h3></h3>
-        <h4></h4>
+        <form>
+            <legend>Q1</legend>
+                <fieldset>
+                    <label for="header">What information goes in the header?</label>
+                    <input type="text" id="q1" name="q1">
+                </fieldset>
+                <legend>Q2</legend>
+                <fieldset>
+                    <label for="difference">What is the difference between grid and flex?</label>
+                    <input type="textarea" id="q2" name="q2">
+                </fieldset>
+                <legend>Q3</legend>
+                <fieldset>
+                    <label for="link">What does html stand for?</label>
+                    <select type="select" id="q3" name="q3">
+                        <option value="High Thinking Main Label">High Thinking Main Label</option>
+                        <option value="HyperText Markup Language">HyperText Markup Language</option>
+                        <option value="Hyrum's Texting Main Language">Hyrum's Texting Main Language</option>
+                        <option value="" selected disabled>Choose One ...</option>
+                    </select>
+                </fieldset>
+                <legend>Q4</legend>
+                <fieldset>
+                    <label for="footer">What information goes in the footer?</label>
+                    <input type="number" id="q4" name="q4">
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+        </form>
     </main>
+    <footer>
+        <p>©2024 | Basic HTML & CSS - Quiz | Allie Garner</p>
+    </footer>
 </body>
 </html>
