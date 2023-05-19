@@ -114,7 +114,6 @@ img{
     position:absolute;
 }
 .adventure img {
-    position:bottom;
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
     column-gap: 90px;
