@@ -18,8 +18,7 @@ header {
     max-width: 100%;
     background-color: #3588c0;
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows:auto;
+    grid-template-columns: 1fr 4fr;
     padding-top: 15px;
 }
 header nav {
@@ -30,7 +29,7 @@ header nav {
     padding: 90px;
     padding-left: 200px;
 }
-nav a {
+header nav a {
     text-decoration: none;
     color: var(--nav-background-color);
 }
@@ -80,8 +79,7 @@ img{
     background-color: #3588c0a3;
     height: 200px;
     width: 100%;
-    padding: 50px;
-}
+    padding: 50px;}
 /*happy client*/
 .hero article img{
     float:right;
@@ -89,30 +87,25 @@ img{
     width: 300px;
     padding: 60px;
     right:0;
-    left:0;
-}
+    left:0;}
 .history {
     background-color: #ddb278;
     text-align: center;
     left:0;
-    right:0;
-}
+    right:0;}
 .history h2 {
-    font-size: 50px;
-}
+    font-size: 50px;}
 /*5 images*/
 .adventure {
     max-width: 100%;
     background-color: #3588C0;
-    height:400px;
-}
+    height:400px;}
 .adventure h2 {
     font-size: 50px;
     text-align: center;
     width:1250px;
     padding-bottom: 200px;
-    position:absolute;
-}
+    position:absolute;}
 .adventure img {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
@@ -120,8 +113,7 @@ img{
     width: 150px;
     margin-right:75px;
     margin-left: 0;
-    margin-top: 150px;
-}
+    margin-top: 150px;}
 .map {
     max-width: 50%;
     height: auto;
@@ -165,13 +157,11 @@ label {
 }
 input, select, textarea {
     padding: 0.5rem;
-    font-size: 1.1rem;
-}
+    font-size: 1.1rem;}
 input[type="checkbox"] {
     width: 22px;
     height: 22px;
-    vertical-align: bottom;
-}
+    vertical-align: bottom;}
 button {
     margin: 1rem;
     background-color: #ddb278;
@@ -179,19 +169,27 @@ button {
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem;
-    font-size: 1.2rem;
-}
+    font-size: 1.2rem;}
 button:hover {
-    background-color: #3588c0;
+    background-color: #3588c0;}
+.three {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .sociallinks {
     height: auto;
     width: 50px;
     float: left;
     display: grid;
-    grid-template-columns: 75px 75px 75px;
-}
-footer {
+    grid-template-columns: 75px 75px 75px 75px;}
+footer{
+    width: 100%;
     display: grid;
-    grid-template-columns: 500px 500px 500px 500px;
+    grid-template-columns: 1fr 1fr;
+    color:#262640;
+}
+footer a {
+    text-decoration: none;
+    color:black;
+    padding-top: 15px;
 }
