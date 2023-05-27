@@ -2,7 +2,7 @@
 :root{
     --primary-color: #FFF7EB;
     --secondary-color: #AFD2E9;
-    --accent1-color: #ddb278;
+    --accent1-color: #a7712a;
     --accent2-color: #3588C0;
 
     --heading-font: 'Rahdhani', sans sarif;
@@ -11,7 +11,7 @@
     --nav-background-color: #FFF7EB;
     --nav-link-color: #AFD2E9;
     --nav-hover-link-color: #3588C0;
-    --nav-hover-background-color: #ddb278;
+    --nav-hover-background-color: #a7712a;
 }
 /*Rafting logo & nav links*/
 header {
@@ -87,7 +87,7 @@ img{
     right:0;
     left:0;}
 .history {
-    background-color: #ddb278;
+    background-color: #a7712a;
     text-align: center;
     left:0;
     right:0;}
@@ -164,7 +164,7 @@ input[type="checkbox"] {
     position:absolute;}
 button {
     margin: 1rem;
-    background-color: #ddb278;
+    background-color: #a7712a;
     color: #fff;
     border: none;
     border-radius: 0.5rem;
