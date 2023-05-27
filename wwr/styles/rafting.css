@@ -64,16 +64,14 @@ img{
     left:0;
     right: 0;
     font-size:60px;
-    color:#262640;
-}
+    color:#262640;}
 .hero article{
     position: absolute;
     top: 150px;
     left: 0;
     right: 0;
     width: 79%;
-    padding: 80px;
-}
+    padding: 80px;}
 /*Blue transparent box*/
 .hero article p{
     background-color: #3588c0a3;
@@ -116,16 +114,14 @@ img{
     margin-top: 150px;}
 .map {
     max-width: 50%;
-    height: auto;
-}
+    height: auto;}
 .employees {
     height: auto;
     width: 50px;
     max-width: 50%;
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    column-gap: 25px;
-}
+    column-gap: 25px;}
 form {
     width: 500px;
     max-width: 50%;
@@ -134,27 +130,22 @@ form {
     border-radius: 0.5rem;
     background-color: #afd2e9;
     display:grid;
-    float:right;
-}
+    float:right;}
 fieldset {
     display: grid;
     grid-gap: 0.5rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-}
+    padding: 1rem;}
 legend {
     padding: 0.5rem;
     color: #262640;
-    font-size: 1.3em;
-}
+    font-size: 1.3em;}
 label, input, button, select, textarea {
-    font-family: Kalam, handwritting;
-}
+    font-family: Kalam, handwritting;}
 label {
     text-align: right;
-    padding-right: 1rem;
-}
+    padding-right: 1rem;}
 input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;}
@@ -162,6 +153,16 @@ input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;}
+.one img {
+    display: block;
+    height: auto;
+    width: 100%;}
+.one article {
+    background-color: #3588c0b1;
+    height: 200px;
+    width: 100%;
+    padding: 50px;
+    position:absolute;}
 button {
     margin: 1rem;
     background-color: #ddb278;
@@ -175,21 +176,18 @@ button:hover {
 .three {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+    grid-gap:20px;}
 .sociallinks {
     height: auto;
     width: 50px;
-    float: left;
     display: grid;
     grid-template-columns: 75px 75px 75px 75px;}
 footer{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color:#262640;
-}
+    color:#262640;}
 footer a {
     text-decoration: none;
     color:black;
-    padding-top: 15px;
-}
+    padding-top: 15px;}
