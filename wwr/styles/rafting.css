@@ -117,14 +117,13 @@ img{
     height: auto;}
 .employees {
     height: auto;
-    width: 50px;
     max-width: 50%;
     display: grid;
     grid-template-columns: 200px 200px 200px;
     column-gap: 25px;}
 form {
     width: 500px;
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
     padding:1rem;
     border-radius: 0.5rem;
@@ -173,6 +172,9 @@ button {
     font-size: 1.2rem;}
 button:hover {
     background-color: #3588c0;}
+.info {
+    position:absolute;
+}
 .three {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
